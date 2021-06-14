@@ -1,0 +1,30 @@
+@import "header";
+@import "navigation";
+@import "poshuk";
+@import "info";
+@import "addverticing";
+@import "popularTickets";
+@import "footer";
+@import "breadCrumbs";
+@import "vidgyk";
+@import "autorization";
+@import "slider";
+@import "poshukPage";
+@import "zamovleni";
+
+$mw: 1110;
+$md1: $mw + 12;
+$md2: 991.98;
+$md3: 767.98;
+
+.container {
+	max-width: $mw + px;
+	margin: 0 auto;
+
+	@media (max-width: $mw + px) {
+		max-width: 970px;
+	}
+	@media (max-width: $md2+px) {
+		max-width: 750px;
+	}
+}

@@ -1,0 +1,45 @@
+.navigation {
+	height: 60px;
+	background-color: $secondly_color;
+
+	&__menu {
+		height: 60px;
+	}
+
+	&__list {
+		height: 60px;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+
+		li {
+			display: inline;
+			margin: 0;
+		}
+		a {
+			padding: 15.5px;
+			font-size: 24px;
+			font-weight: 600;
+			color: #fff;
+			font-family: $font;
+			line-height: 30px;
+			text-decoration: none;
+		}
+		a:hover {
+			background-color: $primary_color;
+			
+		}
+	}
+	&__item {
+	}
+}
+.container {
+}
+
+.activeList {
+	background-color: $primary_color;
+}

@@ -1,0 +1,35 @@
+.breadCrumbs {
+	height: 90px;
+
+	&__body {
+		padding: 30px 0;
+		display: flex;
+		justify-content: start;
+		flex-direction: row;
+		align-items: center;
+		img {
+			width: 30px;
+			height: 30px;
+		}
+		a {
+			text-decoration: none;
+			color: $secondly_color;
+			font-size: 18px;
+			font-weight: 600;
+			font-family: $font;
+		}
+		a:hover {
+			color: $primary_color;
+		}
+	}
+}
+.container {
+}
+
+.arrow {
+	padding: 0 15px;
+}
+
+.ahome {
+	height: 30px;
+}

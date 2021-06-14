@@ -1,0 +1,189 @@
+.poshukMainPage {
+	background-image: url(../img/bg-winter-3950aab344d7e45de36244ca11088be0.jpg);
+	background-size: cover;
+	height: 540px;
+
+	&__body {
+		height: 540px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+		button {
+			padding: 16.5px 31.5px;
+			cursor: pointer;
+		}
+		button:active,
+		:focus,
+		:hover {
+			outline: none;
+		}
+		button:active {
+			font-weight: 700;
+		}
+	}
+
+	&__forms {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+		width: 825px;
+		height: 60px;
+		background-color: $secondly_color;
+		border-radius: 5px;
+		&_from {
+			margin-left: 2px;
+			width: 251px;
+			height: 56px;
+			background-color: #fff;
+			border-radius: 5px;
+			display: flex;
+			justify-content: space-between;
+			flex-direction: row;
+			align-items: center;
+			p {
+				color: #c4c4c4;
+				font-size: 14px;
+				font-weight: 400;
+				font-family: $font;
+				padding: 0 0 30px 7px;
+				margin: 0;
+			}
+			input {
+				width: 130px;
+				height: 30px;
+				border: none;
+				color: #000;
+				font-size: 24;
+				font-weight: 700;
+				font-family: $font;
+				text-align: center;
+			}
+			img {
+				width: 30px;
+				height: 30px;
+				padding-right: 15px;
+			}
+		}
+
+		&_to {
+			width: 251px;
+			height: 56px;
+			background-color: #fff;
+			border-radius: 5px;
+			display: flex;
+			justify-content: space-between;
+			flex-direction: row;
+			align-items: center;
+			p {
+				color: #c4c4c4;
+				font-size: 14px;
+				font-weight: 400;
+				font-family: $font;
+				padding: 0 0 30px 7px;
+				margin: 0;
+			}
+			input {
+				width: 130px;
+				height: 30px;
+				border: none;
+				color: #000;
+				font-size: 24;
+				font-weight: 700;
+				font-family: $font;
+				text-align: center;
+			}
+			img {
+				width: 30px;
+				height: 30px;
+				padding-right: 15px;
+			}
+		}
+
+		&_date {
+			margin-right: 2px;
+			width: 251px;
+			height: 56px;
+			background-color: #fff;
+			border-radius: 5px;
+			display: flex;
+			justify-content: space-between;
+			flex-direction: row;
+			align-items: center;
+			p {
+				color: #c4c4c4;
+				font-size: 14px;
+				font-weight: 400;
+				font-family: $font;
+				padding: 0 0 30px 7px;
+				margin: 0;
+			}
+			input {
+				width: 130px;
+				height: 30px;
+				border: none;
+				color: #000;
+				font-size: 24;
+				font-weight: 700;
+				font-family: $font;
+				text-align: center;
+			}
+			img {
+				width: 30px;
+				height: 30px;
+				padding-right: 15px;
+			}
+		}
+	}
+
+	&__button {
+		width: 255px;
+		height: 60px;
+		border-radius: 5px;
+		border: none;
+		background-color: $primary_color;
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+		font-size: 24px;
+		font-weight: 600;
+		font-family: $font;
+		color: #fff;
+	}
+}
+.container {
+}
+
+input::-webkit-input-placeholder {
+	color: #000;
+	font-size: 24;
+	font-weight: 700;
+	font-family: $font;
+	text-align: center;
+}
+
+input::-moz-placeholder {
+	color: #000;
+	font-size: 24;
+	font-weight: 700;
+	font-family: $font;
+	text-align: center;
+}
+
+textarea::-webkit-input-placeholder {
+	padding-left: 22px;
+	padding-top: 10px;
+	color: #000;
+	font-size: 24;
+	font-weight: 700;
+	font-family: $font;
+}
+textarea:-moz-placeholder {
+	padding-left: 22px;
+	padding-top: 10px;
+	color: #000;
+	font-size: 24;
+	font-weight: 700;
+	font-family: $font;
+}

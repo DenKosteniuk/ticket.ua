@@ -1,0 +1,142 @@
+.autorization {
+	border-top: 1px solid $secondly_color;
+	&__body {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+		margin: 50px 0;
+	}
+	button:active,
+	:focus,
+	:hover {
+		outline: none;
+		cursor: pointer;
+	}
+	button:active {
+		font-weight: 700;
+	}
+
+	&__logIn {
+		width: 380px;
+		height: 350px;
+		border: 1px solid $secondly_color;
+		border-radius: 8px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	&__heading {
+		width: 380px;
+		height: 60px;
+		border-radius: 5px;
+		background-color: $secondly_color;
+		p {
+			text-align: center;
+			margin: 0;
+			padding: 16.5px 0;
+			color: #fff;
+			font-size: 24px;
+			font-weight: 600;
+			font-family: $font;
+		}
+	}
+
+	&__text {
+		position: relative;
+		width: 298px;
+		height: 58px;
+		border: 1px solid $secondly_color;
+		border-radius: 5px;
+		input {
+			border-radius: 5px;
+			text-align: center;
+			width: 298px;
+			height: 58px;
+			padding: 0;
+			border: none;
+			color: #000;
+			font-size: 24;
+			font-weight: 700;
+			font-family: $font;
+		}
+	}
+
+	&__password {
+		display: flex;
+		justify-content: space-between;
+		flex-direction: row;
+		align-items: center;
+		width: 298px;
+		height: 58px;
+		border: 1px solid $secondly_color;
+		border-radius: 5px;
+		img {
+			width: 30px;
+			height: 30px;
+			padding-right: 15px;
+		}
+		input {
+			border-radius: 5px;
+			text-align: center;
+			width: 238px;
+			height: 58px;
+			padding: 0;
+			border: none;
+			color: #000;
+			font-size: 24;
+			font-weight: 700;
+			font-family: $font;
+		}
+	}
+
+	&__forgotpassword {
+	}
+
+	&__button {
+		width: 300px;
+		height: 60px;
+		border-radius: 5px;
+		border: none;
+		background-color: $primary_color;
+		display: inline-block;
+		text-align: center;
+		text-decoration: none;
+		font-size: 24px;
+		font-weight: 600;
+		font-family: $font;
+		color: #fff;
+		margin-bottom: 30px;
+		button {
+			padding: 16.5px 0;
+			cursor: poiner;
+		}
+	}
+
+	&__newAcc {
+		width: 380px;
+		height: 510px;
+		border: 1px solid $secondly_color;
+		border-radius: 8px;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+.container {
+}
+
+.forgotpassword {
+	text-decoration: none;
+	cursor: pointer;
+	position: absolute;
+	top: 150px;
+	left: 0;
+	color: #c4c4c4;
+	font-family: $font;
+	font-size: 14px;
+	font-weight: 400;
+}

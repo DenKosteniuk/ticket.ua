@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <title>tickets.ua</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__body">
+            <a href="index.html">
+              <div class="header__logo">
+                <img src="./img/icons8-cute-outline-50.png" alt="" class="imgLogo" />
+                <p>ticket.ua</p>
+              </div>
+            </a>
+            <div class="header__menu">
+              <a href="autorization.html">
+                <div class="header__autorization">
+                  <p>Авторизація</p>
+                  <img src="./img/icons8-мужчина-пользователь-50.png" alt="" class="imgHuman" />
+                </div>
+              </a>
+              <div class="header__burger">
+                <svg
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 512.001 512.001"
+                  style="enable-background: new 0 0 512.001 512.001"
+                  xml:space="preserve"
+                >
+                  <g>
+                    <g>
+                      <path
+                        fill="#243842"
+                        d="M437.019,74.982C388.667,26.629,324.38,0.001,255.999,0.001S123.333,26.629,74.981,74.982C26.629,123.333,0,187.62,0,256
+                        s26.629,132.668,74.981,181.019C123.333,485.372,187.621,512,256.001,512s132.668-26.629,181.019-74.981
+                        C485.372,388.668,512.001,324.38,512.001,256S485.371,123.333,437.019,74.982z M255.999,481.158
+                        C131.848,481.158,30.843,380.152,30.843,256S131.848,30.843,255.999,30.843S481.156,131.849,481.156,256
+                        S380.152,481.158,255.999,481.158z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        fill="#243842"
+                        d="M396.853,240.579H115.147c-8.517,0-15.421,6.905-15.421,15.421c0,8.517,6.905,15.421,15.421,15.421h281.706
+                        c8.517,0,15.421-6.905,15.421-15.421C412.274,247.483,405.37,240.579,396.853,240.579z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        fill="#243842"
+                        d="M376.291,155.76H135.709c-8.517,0-15.421,6.905-15.421,15.421c0,8.517,6.905,15.422,15.421,15.422h240.582
+                        c8.517,0,15.422-6.905,15.422-15.422C391.713,162.665,384.808,155.76,376.291,155.76z"
+                      />
+                    </g>
+                  </g>
+                  <g>
+                    <g>
+                      <path
+                        fill="#243842"
+                        d="M376.291,325.397H135.709c-8.517,0-15.421,6.905-15.421,15.421c0,8.517,6.905,15.421,15.421,15.421h240.582
+                        c8.517,0,15.422-6.905,15.422-15.421C391.713,332.301,384.808,325.397,376.291,325.397z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="navigation">
+        <div class="container">
+          <nav class="navigation__menu">
+            <ul class="navigation__list">
+              <li><a href="index.html" class="navigation__item item1">Головна сторінка</a></li>
+              <li><a href="poshuk.html" class="navigation__item item2">Пошук квитків</a></li>
+              <li><a href="zamovleni.html" class="navigation__item item3">Замовлені квитки</a></li>
+              <li class="activeList">
+                <a href="vidgyk.html" class="navigation__item item4">Залишити відгук</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="breadCrumbs">
+        <div class="container">
+          <div class="breadCrumbs__body">
+            <a href="index.html" class="ahome"
+              ><img src="./img/icons8-главная-50.png" alt="" class="home"
+            /></a>
+            <img src="./img/icons8-стрелка-50.png" alt="" class="arrow" />
+            <a href="vidgyk.html">Залишити відгук</a>
+          </div>
+        </div>
+      </div>
+      <div class="vidgyk">
+        <div class="container">
+          <div class="vidgyk__body">
+            <p>Залишити відгук на сайті ticket.ua:</p>
+            <div class="vidgyk__info">
+              <div class="vidguk-wrapper">
+                <div class="vidgyk__name">
+                  <input type="text" placeholder="Введіть ваше ім'я" />
+                </div>
+              </div>
+              <div class="vidguk-wrapper">
+                <div class="vidgyk__email">
+                  <input type="email" placeholder="Введіть ваш email" />
+                </div>
+              </div>
+              <div class="vidguk-wrapper">
+                <div class="vidgyk__theme">
+                  <input type="text" placeholder="Введіть тему відгуку" />
+                </div>
+              </div>
+            </div>
+            <div class="vidguk-wrapper text">
+              <div class="vidgyk__text">
+                <textarea
+                  name="vidguk-info"
+                  id="vidgyk"
+                  cols="20"
+                  rows="10"
+                  placeholder="Введіть ваш відгук"
+                ></textarea>
+              </div>
+            </div>
+            <div class="vidgyk__button">
+              <button>Залишити відгук</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footerInfo">
+          <div class="container">
+            <div class="footerInfo__body">
+              <div class="footerInfo__info">
+                <div class="footerInfo__item">
+                  <p class="footerInfo__heading">Інформація</p>
+                  <a href="" class="footerInfo__link">Про нас</a>
+                  <a href="" class="footerInfo__link">Питання та відповіді</a>
+                  <a href="" class="footerInfo__link">Блог</a>
+                </div>
+                <div class="footerInfo__item">
+                  <p class="footerInfo__heading">Партнерам</p>
+                  <a href="" class="footerInfo__link">Перевізникам</a>
+                  <a href="" class="footerInfo__link">Агентам</a>
+                  <a href="" class="footerInfo__link">Партнерська программа</a>
+                </div>
+                <div class="footerInfo__item">
+                  <p class="footerInfo__heading">Документи</p>
+                  <a href="" class="footerInfo__link">Договір оферти</a>
+                  <a href="" class="footerInfo__link">Політика конфіденційності</a>
+                  <a href="" class="footerInfo__link">Рекомендації</a>
+                </div>
+                <div class="footerInfo__item">
+                  <p class="footerInfo__heading">Контакти</p>
+                  <a href="" class="footerInfo__link">+38(050)-555-55-55</a>
+                  <a href="" class="footerInfo__link">+38(050)-555-55-55</a>
+                  <a href="" class="footerInfo__link">+38(050)-555-55-55</a>
+                </div>
+              </div>
+              <div class="footerInfo__payment">
+                <img src="./img/icons8-виза-50.png" alt="" class="imgPayment" />
+                <img src="./img/icons8-виза-50.png" alt="" class="imgPayment" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footerCopywrite">
+          <div class="container">
+            <div class="footerCopywrite__body">
+              <a>© 2021, Костенюк Денис. Онлайн-сервіс із продажу квитків. Усі права захищені</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
