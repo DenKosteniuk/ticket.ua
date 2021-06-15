@@ -276,7 +276,7 @@
   font-size: 14px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  padding: 0 0 30px 7px;
+  padding: 0 0 30px 2px;
   margin: 0;
 }
 
@@ -322,7 +322,7 @@
   font-size: 14px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  padding: 0 0 30px 7px;
+  padding: 0 0 30px 2px;
   margin: 0;
 }
 
@@ -605,10 +605,10 @@ textarea:-moz-placeholder {
 
 .popularTickets__forms_from p {
   color: #c4c4c4;
-  font-size: 14px;
+  font-size: 14px;.poshuk__forms_date p
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  padding: 0 0 30px 7px;
+  padding: 0 0 30px 2px;
   margin: 0;
 }
 
@@ -655,7 +655,7 @@ textarea:-moz-placeholder {
   font-size: 14px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  padding: 0 0 30px 7px;
+  padding: 0 0 30px 2px;
   margin: 0;
 }
 
@@ -1465,7 +1465,7 @@ input[type='range']::-webkit-slider-thumb {
   font-size: 14px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  padding: 0 0 30px 7px;
+  padding: 0 0 30px 2px;
   margin: 0;
 }
 
@@ -1511,7 +1511,7 @@ input[type='range']::-webkit-slider-thumb {
   font-size: 14px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  padding: 0 0 30px 7px;
+  padding: 0 0 30px 2px;
   margin: 0;
 }
 
@@ -1558,7 +1558,7 @@ input[type='range']::-webkit-slider-thumb {
   font-size: 14px;
   font-weight: 400;
   font-family: 'Montserrat', sans-serif;
-  padding: 0 0 30px 7px;
+  padding: 0 0 30px 2px;
   margin: 0;
 }
 
